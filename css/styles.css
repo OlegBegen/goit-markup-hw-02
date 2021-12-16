@@ -1,3 +1,85 @@
+
+.list{
+  list-style: none;
+}
+:root{
+  --color-general-: #212121;
+  --color-second-: #2196F3;
+  --color-h1-: #FFFFFF;
+  --color-text-: #757575;
+  --background-scond: #2F303A;
+  --background-button-: #2196F3;
+  --background-heder-: #FFFFFF;
+  --background-general: #E5E5E5;
+}
 body{
-    font-family: roboto;
+ background-color: var(--background-general);
+ color: var(--color-text-)
+}
+
+/* стилізація шапки */
+.header-style{
+  background-color: var(--background-heder-);
+}
+.logo{
+  color: #2196F3;
+}
+.logo-second{
+  color: #000000;
+}
+
+.site-nav .link{
+  color: var(--color-general-);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+  color: var(--color-second-);
+}
+.aut-nav .a-link{
+  color: var(--color-text-);
+}
+.aut-nav .a-link:hover,
+.aut-nav .a-link:focus{
+  color: var(--color-second-);
+}
+
+/* стилізація героя */
+.heroe{
+  background-color: var(--background-scond);
+  color: var(--color-h1-);
+}
+.button-styles{
+background-color: var(--color-second-);  
+color: var(--color-h1-);
+}
+
+/* стилізвція майн */
+
+.site-we .we-title{
+  color: var(--color-general-);
+}
+.our-work{
+  color: var(--color-general-);
+}
+
+/* стилізація команди */
+.our-comand{
+  color: var(--color-general-);
+}
+.name{
+  color: var(--color-general-);
+}
+
+/* стилізація футера */
+
+.fotter-styles{
+background-color: var(--background-scond);
+}
+
+.adsress-styles{
+  color: var(--color-h1-);
+}
+
+.contact .cont-list{
+  color: var(--color-text-);
 }
