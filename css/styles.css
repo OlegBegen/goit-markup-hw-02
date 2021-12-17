@@ -11,6 +11,7 @@
   --background-button-: #2196F3;
   --background-heder-: #FFFFFF;
   --background-general: #E5E5E5;
+  --background-portf-button: #F5F4FA
 }
 body{
  background-color: var(--background-general);
@@ -82,4 +83,24 @@ background-color: var(--background-scond);
 
 .contact .cont-list{
   color: var(--color-text-);
+}
+
+/* стилізація портфоліо */
+
+.portf-main{
+  background-color: var(--background-general)
+}
+
+.button-list{
+  background-color: var(--background-portf-button);
+  color: var(--color-general-);
+}
+
+.button-list:hover,
+.button-list:focus{
+  background-color: var(--background-button-);
+}
+
+.project-title{
+  color: var(--color-general-);
 }
