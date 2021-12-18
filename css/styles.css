@@ -1,106 +1,175 @@
-
-.list{
+.list {
   list-style: none;
 }
-:root{
+:root {
   --color-general-: #212121;
-  --color-second-: #2196F3;
-  --color-h1-: #FFFFFF;
+  --color-second-: #2196f3;
+  --color-h1-: #ffffff;
   --color-text-: #757575;
-  --background-scond: #2F303A;
-  --background-button-: #2196F3;
-  --background-heder-: #FFFFFF;
-  --background-general: #E5E5E5;
-  --background-portf-button: #F5F4FA
+  --background-scond: #2f303a;
+  --background-button-: #2196f3;
+  --background-heder-: #ffffff;
+  --background-general: #e5e5e5;
+  --background-portf-button: #f5f4fa;
 }
-body{
- background-color: var(--background-general);
- color: var(--color-text-)
+body {
+  background-color: var(--background-general);
+  color: var(--color-text-);
+  font-family: Roboto, sans-serif;
 }
 
 /* стилізація шапки */
-.header-style{
+.header-style {
   background-color: var(--background-heder-);
 }
-.logo{
-  color: #2196F3;
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
 }
-.logo-second{
+.logo-second {
   color: #000000;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-three {
+  color: var(--background-heder-);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.site-nav .link{
+.site-nav .link {
   color: var(--color-general-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.site-nav .link:hover, 
-.site-nav .link:focus{
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--color-second-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.aut-nav .a-link{
+.aut-nav .a-link {
   color: var(--color-text-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .aut-nav .a-link:hover,
-.aut-nav .a-link:focus{
+.aut-nav .a-link:focus {
   color: var(--color-second-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /* стилізація героя */
-.heroe{
+.heroe {
   background-color: var(--background-scond);
   color: var(--color-h1-);
 }
-.button-styles{
-background-color: var(--color-second-);  
-color: var(--color-h1-);
+.heroe-main {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.button-styles {
+  background-color: var(--color-second-);
+  color: var(--color-h1-);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 /* стилізвція майн */
 
-.site-we .we-title{
+.site-we .we-title {
   color: var(--color-general-);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.our-work{
+.site-we .we-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.our-work {
   color: var(--color-general-);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 /* стилізація команди */
-.our-comand{
+.our-comand {
   color: var(--color-general-);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
 }
-.name{
+.name {
   color: var(--color-general-);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* стилізація футера */
 
-.fotter-styles{
-background-color: var(--background-scond);
+.fotter-styles {
+  background-color: var(--background-scond);
 }
 
-.adsress-styles{
+.adsress-styles {
   color: var(--color-h1-);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.contact .cont-list{
+.contact .cont-list {
   color: var(--color-text-);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* стилізація портфоліо */
 
-.portf-main{
-  background-color: var(--background-general)
+.portf-main {
+  background-color: var(--background-general);
 }
 
-.button-list{
+.button-list {
   background-color: var(--background-portf-button);
   color: var(--color-general-);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .button-list:hover,
-.button-list:focus{
+.button-list:focus {
   background-color: var(--background-button-);
 }
 
-.project-title{
+.project-title {
   color: var(--color-general-);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.product {
+  font-size: 16px;
+  line-height: 1.88;
 }
