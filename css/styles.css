@@ -16,9 +16,15 @@ a {
   --background-portf-button: #f5f4fa;
 }
 body {
-  background-color: var(--background-general);
+  /* background-color: var(--background-general); */
+  background-color: var(--background-heder-);
   color: var(--color-text-);
   font-family: Roboto, sans-serif;
+}
+
+/* скритий текст */
+.stels {
+  color: var(--background-heder-);
 }
 
 /* стилізація шапки */
@@ -80,6 +86,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 .button-styles {
   background-color: var(--color-second-);
@@ -88,7 +95,10 @@ body {
   font-size: 16px;
   line-height: 1.88;
 }
-
+.button-styles:hover,
+.button-styles:focus {
+  background-color: #188ce8;
+}
 /* стилізвція майн */
 
 .site-we .we-title {
@@ -96,6 +106,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .site-we .we-text {
   font-size: 14px;
@@ -109,6 +120,9 @@ body {
 }
 
 /* стилізація команди */
+.comand {
+  background-color: var(--background-portf-button);
+}
 .our-comand {
   color: var(--color-general-);
   font-weight: bold;
@@ -150,20 +164,21 @@ body {
 /* стилізація портфоліо */
 
 .portf-main {
-  background-color: var(--background-general);
+  background-color: var(--background-heder-);
 }
 
 .button-list {
   background-color: var(--background-portf-button);
   color: var(--color-general-);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.63;
 }
 
 .button-list:hover,
 .button-list:focus {
   background-color: var(--background-button-);
+  color: var(--background-heder-);
 }
 
 .project-title {
